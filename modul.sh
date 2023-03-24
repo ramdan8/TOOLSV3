@@ -27,7 +27,10 @@ sudo apt update && apt upgrade -y
 sudo apt install python3 python2 python
 sudo apt install bash php git wget
 pip install requests mechanize bs4
-pip install fake_usragent pycryptodome rich keyboard
+pip install fake_usragent 
+pip install pycryptodome 
+pip install rich
+pip install keyboard
 cd
 cd TOOLSV2
 pip install -r requirements.txt

@@ -31,6 +31,8 @@ pip install fake_usragent
 pip install pycryptodome 
 pip install rich
 pip install keyboard
+pip install colorama
+pip install tqdm
 cd
 cd TOOLSV2
 pip install -r requirements.txt
@@ -44,6 +46,7 @@ pip install requests mechanize bs4
 pip install fake_usragent 
 pip install pycryptodome
 pip install rich keyboard
+pip install colorama tqdm
 cd
 cd TOOLSV2
 pip install -r requirements.txt

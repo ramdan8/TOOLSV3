@@ -15,7 +15,7 @@ p="\033[1;37m"
 #figlet
 clear
 echo $q $k "MENGGUNAKAN KALI LINUX ?"
-echo $q $k "JIKA YA KETIK$m sudo$k JIKA TIDAK KETIN$m n"
+echo $q $k "JIKA YA KETIK$m sudo$k JIKA TIDAK KETIN$m apt"
 read -p "[GALIRUS]===> " apah
 if [ "$apah" = "sudo" ]
 then
@@ -35,7 +35,7 @@ cd
 cd TOOLSV2
 pip install -r requirements.txt
 bash go.sh
-elif [ "$apah" = "n" ]
+elif [ "$apah" = "apt" ]
 then
 apt update && apt upgrade -y
 apt install python3 python2 python

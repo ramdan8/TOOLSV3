@@ -14,8 +14,6 @@ bl="\033[1;36m"
 p="\033[1;37m"
 #figlet
 clear
-while [ "$else" = "$ulang" ]
-do
 echo $q $k "MENGGUNAKAN KALI LINUX ?"
 echo $q $k "JIKA YA KETIK$m sudo$k JIKA TIDAK KETIN$m n"
 read -p "[GALIRUS]===> " apah
@@ -56,4 +54,3 @@ else
 echo $q $k "YANG BENER ISINYA"
 sleep 2
 fi
-done

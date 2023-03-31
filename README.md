@@ -7,4 +7,4 @@ Git clone https://github.com/Galirus404/TOOLSV2
 
 cd TOOLSV2
 
-bash go.sh
+bash install.sh

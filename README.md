@@ -1,10 +1,10 @@
-# TOOLSV2
+# TOOLSV3
 
 pkg update && pkg upgrade
 
 pkg install git
 
-Git clone https://github.com/Galirus404/TOOLSV2
+git clone https://github.com/Galirus404/TOOLSV3
 
 cd TOOLSV2
 

@@ -25,11 +25,11 @@ if [ "$apah" = "sudo" ]
 then
 echo $q $k "INSTALL$h MODULE/PACKAGE"
 sleep 2
-sudo apt update && apt upgrade -y
+sudo apt update -y
 sudo apt install python3 python2 python -y
 sudo apt install bash php git wget -y
 pip install requests mechanize bs4
-pip install fake_usragent 
+pip install fake_usragent
 pip install pycryptodome 
 pip install rich
 pip install keyboard
@@ -50,8 +50,8 @@ then
 apt update && apt upgrade -y
 apt install python3 python2 python -y
 apt install bash php git wget -y
-pip install requests mechanize bs4 -y
-pip install fake_usragent 
+pip install requests mechanize bs4
+pip install fake_usragent
 pip install pycryptodome
 pip install rich keyboard
 pip install colorama tqdm

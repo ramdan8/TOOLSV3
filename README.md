@@ -6,7 +6,7 @@ pkg install git
 
 git clone https://github.com/Galirus404/TOOLSV3
 
-cd TOOLSV2
+cd TOOLSV3
 
 chmod 777 install.sh
 

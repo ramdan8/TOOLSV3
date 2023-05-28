@@ -35,12 +35,12 @@ pip install rich
 pip install keyboard
 pip install colorama
 pip install tqdm
-pkg install ruby -y
+sudo apt install ruby -y
 gem install lolcat
-pkg install curl -y
-pkg install figlet
-pkg install zip -y
-pkg install unzip -y
+sudo apt install curl -y
+sudo apt install figlet
+sudo apt install zip -y
+sudo apt install unzip -y
 cd
 cd TOOLSV3 
 pip install -r requirements.txt
